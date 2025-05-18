@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart.details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/mine.jpg">
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        
+        <div class="container">
+            <div class="navbar">
+                <img src="./images/bg remove.png">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="Contact us.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/ct icon.png" width="30px" height="30px">
+            <img src="images/menu icon.svg" class="menu-icon"
+             onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <!----Cart item details-->
+
+    <div class="small-product Cart-page">
+        <table>
+            <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="Cart-info">
+                    <img src="images/yellow t-shirt2.jpg">
+                    <div>
+                        <p>Blue Printed T-Shirt</p>
+                        <small>Price: $40.00</small>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td> $40.00</td>
+        </tr>
+        </table>
+    </div>
+
+
+    <div class="bgcolor">
+        <div class="contain">
+            <div class="footer">
+                <h2>Download our App</h2>
+                <p>Download App for Android and ios mobile phone.</p>
+                <img src="images/play.png">
+                <img src="images/app.png">
+            </div>
+    
+            <div class="footer1">
+                <img src="images/blue shop footer.jpg">
+                <p>Our Purpose Is To Sustainably Make th Pleasure and <br></p>
+                <h3> Benefits of Sports Accessible to the Many.</h3>
+            </div>
+           
+             <div class="footer2">
+                <h2>Useful Links</h2>
+                <p>Coupons<br>Blog Post<br>Return Policy<br>Join Affiliate</p>
+             </div>
+    
+             <div class="footer3">
+                <h2>Follow us</h2>
+                <p><i class="fa fa-facebook" aria-hidden="true"></i><br><i class="fa fa-twitter" aria-hidden="true"></i>
+                    <br><a href="https://www.instagram.com/official_mera_badshah?igsh=MWxsbWdqcTZpaTlzdA==" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <br><a href="https://www.youtube.com/channel/UC9aVWjMJkxysoD9MjKfJsJQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </p>
+             </div>
+    
+             
+        </div>
+        <hr>
+    <p class="copy">Copytight 2021 - Rakesh Kumar Singh</p>
+        
+    </div>
+
+    
+    
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+           if (MenuItems.style.maxHeight == "0px")
+      {
+             MenuItems.style.maxHeight = "200px";
+      }
+
+      else
+
+      {
+             MenuItems.style.maxHeight ="0px";
+      }
+      }
+</script>
+
+
+ 
+   
+    
+
+</body>
+
+</html>
